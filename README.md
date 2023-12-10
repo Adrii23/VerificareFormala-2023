@@ -8,4 +8,4 @@
 
 
 <br>Tool #2: **Marabou**</br>
-* Link: 
+* Link: <a href="https://github.com/NeuralNetworkVerification/Marabou" target="_blank">https://github.com/NeuralNetworkVerification/Marabou</a>
