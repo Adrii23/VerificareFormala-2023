@@ -1,13 +1,16 @@
 #Error 1: probleme dupa instalare ->  nu specifica toate modulele care trebuie instalate
 
 Module extra de instalat/avut:
-pip install onnx2pytorch --upgrade
-pip install onnxruntime --upgrade
-pip install onnxoptimizer --upgrade
-pip install skl2onnx --upgrade
-pip install psutil --upgrade
-pip install pandas --upgrade
-pip install sortedcontainers --upgrade
+pip install onnxruntime==1.16.3
+pip install onnxsim==0.4.35
+pip install skl2onnx==1.15.0
+pip install termcolor==2.3.0
+pip install onnxoptimizer==0.3.13
+pip install gurobipy==11.0.0
+pip install psutil==5.9.5
+pip install pyyaml==6.0.1
+pip install sortedcontainers==2.4.0
+pip install https://github.com/KaidiXu/onnx2pytorch.git
 
 #Error 2: FileNotFoundError: [Errno 2] No such file or directory: 'exp_configs/cifar_resnet_2b.yaml'
 Solution: C:\Users\admin\Desktop\alpha-beta-CROWN-main\complete_verifier>python abcrown.py --config exp_configs/tutorial_examples/cifar_resnet_2b.yaml
