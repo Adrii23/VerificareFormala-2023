@@ -1,0 +1,9 @@
+Download vnncomp2023_benchmarks -> https://github.com/ChristopherBrix/vnncomp2023_benchmarks
+Download onnx/vgg16-7.onnx -> wget https://rwth-aachen.sciebo.de/s/Erh54iS6fT3hHCr/download -O large_models.zip
+
+
+issue: https://github.com/Verified-Intelligence/alpha-beta-CROWN/issues/31
+!pip install git+https://github.com/dlshriver/DNNV.git@develop
+!python maxpool_to_relu.py vgg16-7.onnx
+%cp vgg16-7.onnx vgg16-7.onnx.original
+%cp output.onnx vgg16-7.onnx
