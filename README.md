@@ -7,5 +7,5 @@
 * Link: <a href="https://github.com/Verified-Intelligence/alpha-beta-CROWN" target="_blank">https://github.com/Verified-Intelligence/alpha-beta-CROWN</a>
 
 
-<br>Tool #2: **Marabou**</br>
-* Link: <a href="https://github.com/NeuralNetworkVerification/Marabou" target="_blank">https://github.com/NeuralNetworkVerification/Marabou</a>
+<br>Tool #2: **neuralSAT**</br>
+* Link: <a href="https://github.com/dynaroars/neuralsat" target="_blank">https://github.com/dynaroars/neuralsat</a>

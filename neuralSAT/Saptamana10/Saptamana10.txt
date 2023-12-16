@@ -1,0 +1,23 @@
+Instalation steps for neuralSAT:
+!!! Important info: This will not work on Mac Machines with arm-64. You can create a Windows or Ubuntu Machine.
+
+ * Download from: https://github.com/dynaroars/neuralsat
+ * Install miniconda if not installed already : https://docs.conda.io/projects/miniconda/en/latest/miniconda-install.html
+ * Once downloaded, you need to edit the environment.yaml file and remove all the versions of the packages (the ones after the '=' sign). Conda will pick the most recent/appropriate version automatically.
+ * Create the env as stated in the repo's readme.
+    * Some packages will not get installed. Try and install them manually (quick Google search will reveal the command/install instructions)
+        * Be sure to check if the package has a 'linux-aarch64' installer. If not, you can skip it. 
+ * After the env was created succesfully, install the remaining dependenices as stated in the readme (Gurobi, CUDA Extensions).
+
+Steps to run:
+ * Activate your created environment (conda activate neuralSAT)
+ * python3 main.py -- net ... (your path to the vgg onix file) --spec ... (your path to the vnnlib benchmark)
+    * The .onix file can be downloaded from here: https://github.com/onnx/models/blob/main/archive/vision/classification/vgg/model/vgg16-7.onnx
+
+Example:
+python3 main.py --net /home/parallels/Downloads/vgg16-7.onnx --spec home/parallels/Downloads/vggnet16/extracted/spec0_pretzel.vnnlib
+
+Important mention:
+ * Currently we're facing issues with running this locally. (Screenshot of the terminal can be found under 'neuralSAT_run.png').
+    * Most likely due to limited resources. Will continue on investigating for solutions.
+
