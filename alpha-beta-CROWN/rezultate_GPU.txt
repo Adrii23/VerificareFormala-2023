@@ -1,0 +1,141 @@
+vggnet16_spec0_pretzel
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):36.543523133646836, max time: 36.543888568878174
+mean time for verified SAFE instances(total 1): 36.543888568878174, max time: 36.543888568878174
+safe (total 1), index: [0]
+
+
+vggnet16_spec1_football_helmet
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):22.766468549990403, max time: 22.766696214675903
+mean time for verified SAFE instances(total 1): 22.766696214675903, max time: 22.766696214675903
+safe (total 1), index: [0]
+
+
+vggnet16_spec2_grey_whale
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):22.798092074087194, max time: 22.798320055007935
+mean time for verified SAFE instances(total 1): 22.798320055007935, max time: 22.798320055007935
+safe (total 1), index: [0]
+
+
+vggnet16_spec3_African_crocodile
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):23.65315077661296, max time: 23.653387308120728
+mean time for verified SAFE instances(total 1): 23.653387308120728, max time: 23.653387308120728
+safe (total 1), index: [0]
+
+
+vggnet16_spec4_Norfolk_terrier
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):21.561371958378192, max time: 21.56158757209778
+mean time for verified SAFE instances(total 1): 21.56158757209778, max time: 21.56158757209778
+safe (total 1), index: [0]
+
+
+vggnet16_spec5_shopping_cart
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):22.623540425286052, max time: 22.623766660690308
+mean time for verified SAFE instances(total 1): 22.623766660690308, max time: 22.623766660690308
+safe (total 1), index: [0]
+
+
+vggnet16_spec6_groom
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):25.20438190736806, max time: 25.204633951187134
+mean time for verified SAFE instances(total 1): 25.204633951187134, max time: 25.204633951187134
+safe (total 1), index: [0]
+
+
+vggnet16_spec7_howler_monkey
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):22.81810449107423, max time: 22.81833267211914
+mean time for verified SAFE instances(total 1): 22.81833267211914, max time: 22.81833267211914
+safe (total 1), index: [0]
+
+
+vggnet16_spec8_sunscreen
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):26.23240607575003, max time: 26.23266839981079
+mean time for verified SAFE instances(total 1): 26.23266839981079, max time: 26.23266839981079
+safe (total 1), index: [0]
+
+
+vggnet16_spec9_Border_terrier
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):21.527588860387638, max time: 21.527804136276245
+mean time for verified SAFE instances(total 1): 21.527804136276245, max time: 21.527804136276245
+safe (total 1), index: [0]
+
+
+vggnet16_spec10_beacon
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):23.237463080920335, max time: 23.237695455551147
+mean time for verified SAFE instances(total 1): 23.237695455551147, max time: 23.237695455551147
+safe (total 1), index: [0]
+
+
+vggnet16_spec11_EntleBucher
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):23.560035901182125, max time: 23.560271501541138
+mean time for verified SAFE instances(total 1): 23.560271501541138, max time: 23.560271501541138
+safe (total 1), index: [0]
+
+
+vggnet16_spec12_Dutch_oven
+RuntimeError: CUDA out of memory.
+
+
+vggnet16_spec13_steel_drum
+RuntimeError: CUDA out of memory.
+
+
+vggnet16_spec14_Afghan_hound
+############# Summary #############
+Final verified acc: 100.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
+mean time for ALL instances (total 1):112.49573077847101, max time: 112.49685573577881
+mean time for verified SAFE instances(total 1): 112.49685573577881, max time: 112.49685573577881
+safe (total 1), index: [0]
+
+
+vggnet16_spec15_carpenters_kit
+############# Summary #############
+Final verified acc: 0.0% (total 1 examples)
+Problem instances count: 1 , total verified (safe/unsat): 0 , total falsified (unsafe/sat): 1 , timeout: 0
+mean time for ALL instances (total 1):17.72886428774262, max time: 17.729041576385498
+mean time for verified UNSAFE instances (total 1): 17.729041576385498, max time: 17.729041576385498
+unsafe-pgd (total 1), index: [0]
+
+
+vggnet16_spec16_restaurant
+^C
+
+
+vggnet16_spec17_golf_ball
+^C
+
