@@ -209,8 +209,8 @@ unsafe-pgd (total 1), index: [0]
 
 
 vggnet16_spec16_restaurant
-time -> dupao ora nu s-a terminat de rulat
+time -> dupa o ora nu s-a terminat de rulat
 
 vggnet16_spec17_golf_ball
-time -> dupao ora nu s-a terminat de rulat
+time -> dupa o ora nu s-a terminat de rulat
 
