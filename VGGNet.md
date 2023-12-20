@@ -58,7 +58,7 @@ In figura de mai jos putem vedea numarul total de parametri in milioane.
     <img height="77" width="724" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/parameters.png">
 </div>
 
-<p align="justify">Procesul de antrenare al VGG este similar cu cel al lui AlexNet (Krizhevsky et al.). Ambele implica optimizarea unei functii de regresie logistica multinomiala pentru a realiza backpropagation. VGG utilizeaza mini-loturi pentru a evita gradientul care dispare, fenomen generat de adancimea rețelei.
+<p align="justify">Procesul de antrenare al VGG este similar cu cel al lui AlexNet. Ambele implica optimizarea unei functii de regresie logistica multinomiala pentru a realiza backpropagation. VGG utilizeaza mini-loturi pentru a evita gradientul care dispare, fenomen generat de adancimea retelei.
 In timpul antrenamentului, dimensiunea lotului a fost setata la 256, in timp ce momentum a fost setat la 0,9. Modelul VGG a introdus regularizarea dropout in doua dintre straturile complet conectate, cu o rata dropout setata la 0,5. Rata de invatare initiala a retelei a fost de 0,001. Cand acuratetea setului de validare a incetat sa se imbunatateasca, rata de invatare a scazut cu un factor de 10. Rata de invatare a scazut de trei ori, iar antrenamentul s-a incheiat dupa 74 de epoci (370.000 de iteratii).
 
 Arhitectura VGG16 a obtinut cele mai bune rezultate in ceea ce priveste performanta retelei unice (eroare de testare de 7,0%). Tabelul de mai jos prezinta ratele de eroare.
@@ -76,11 +76,11 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
 
 - <strong> Regularizare: </strong> Se utilizeaza regularizarea L2, iar descompunerea ponderilor este de 5e-4. Dropout se aplica dupa primele doua straturi complet conectate, p = 0,5.
 
- - Desi este mai profund si are mai multi parametri decat reteaua AlexNet, speculăm ca VGGNet poate converge in mai putine cicluri din doua motive: in primul rand, adancimea mai mare si convolutiile mai mici aduc o regularizare implicita; in al doilea rand, unele straturi de pre-antrenament.
+ - Desi este mai profund si are mai multi parametri decat reteaua AlexNet, VGGNet poate converge in mai putine cicluri din doua motive: in primul rand, adancimea mai mare si convolutiile mai mici aduc o regularizare implicita si in al doilea rand unele straturi de pre-antrenament.
 
-- Initializarea parametrilor: Pentru o retea A mai superficiala, parametrii sunt initializati aleatoriu, greutatea w fiind mutata din N (0, 0,01), iar bias-ul este initializat la 0. Apoi pentru retelele mai adanci, primele patru straturi de convolutie si cele trei straturi complet conectate sunt initializate cu parametrii retelei A. Cu toate acestea, s-a descoperit ulterior ca este posibil să se initializeze direct fara a utiliza parametrii pre-antrenati.
+- Initializarea parametrilor: Pentru o retea A mai superficiala, parametrii sunt initializati aleatoriu, greutatea w fiind mutata din N (0, 0,01), iar bias-ul este initializat la 0. Apoi pentru retelele mai adanci, primele patru straturi de convolutie si cele trei straturi complet conectate sunt initializate cu parametrii retelei A. Ulterior s-a descoperit ca este posibil sa se initializeze direct fara a utiliza parametrii pre-antrenati.
 
-- Pentru a obtine o imagine de intrare de 224 * 224, fiecare imagine redimensionata este decupata aleator in fiecare iteratie SGD. Pentru a imbunatati setul de date, imaginea decupata este, de asemenea, inversata aleatoriu pe orizontala si schimbata in culoare RGB.
+- Pentru a obtine o imagine de intrare de 224 * 224, fiecare imagine redimensionata este decupata aleator in fiecare iteratie SGD. Pentru a imbunatati setul de date, imaginea decupata este inversata aleatoriu pe orizontala si schimbata in culoare RGB.
 
 
 
