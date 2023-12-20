@@ -87,7 +87,7 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
 
 <p align="justify"> VGG16 a obtinut o performanta in competitia pentru castigarea sarcinii de clasificare cu o eroare de 6,7% pentru GoogLeNet si depaseste contributia castigatoare a competitiei ILSVRC-2013, Clarifai, care a inregistrat 11,2% cu utilizarea unor date de antrenare externe si 11,7% fara acestea. Ca si performanta a unei singure retele, VGG16 si arhitectura obtin cel mai bun rezultat avand o eroare de testare de 7% depasind o singura retea GoogLeNet cu 0,9%.
 
-# Comparatie VGG16 :
+- Comparatie VGG16
 
 <div align="center">
     <img height="316" width="757" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/procent.png">
