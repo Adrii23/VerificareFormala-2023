@@ -1,108 +1,180 @@
 vggnet16_spec0_pretzel
+Using Linf sparse perturbation. Perturbed dimensions: 1.
+Avg perturbation: 2.002716064453125e-05
+initial forward+backward bounds: tensor([[6.64677477]], device='cuda:0')
+Worst class: (+ rhs) 6.646774768829346
+Verified by initial bound!
+Result: safe in 33.2506 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):36.543523133646836, max time: 36.543888568878174
-mean time for verified SAFE instances(total 1): 36.543888568878174, max time: 36.543888568878174
+mean time for ALL instances (total 1):33.25022229781059, max time: 33.25055480003357
+mean time for verified SAFE instances(total 1): 33.25055480003357, max time: 33.25055480003357
 safe (total 1), index: [0]
 
 
 vggnet16_spec1_football_helmet
+Using Linf sparse perturbation. Perturbed dimensions: 1.
+Avg perturbation: 0.00020003318786621094
+initial forward+backward bounds: tensor([[8.15148544]], device='cuda:0')
+Worst class: (+ rhs) 8.151485443115234
+Verified by initial bound!
+Result: safe in 21.0254 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):22.766468549990403, max time: 22.766696214675903
-mean time for verified SAFE instances(total 1): 22.766696214675903, max time: 22.766696214675903
+mean time for ALL instances (total 1):21.0252070758101, max time: 21.02541732788086
+mean time for verified SAFE instances(total 1): 21.02541732788086, max time: 21.02541732788086
 safe (total 1), index: [0]
 
 
 vggnet16_spec2_grey_whale
+Using Linf sparse perturbation. Perturbed dimensions: 1.
+Avg perturbation: 0.002000093460083008
+initial forward+backward bounds: tensor([[7.90198660]], device='cuda:0')
+Worst class: (+ rhs) 7.901986598968506
+Verified by initial bound!
+Result: safe in 21.9771 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):22.798092074087194, max time: 22.798320055007935
-mean time for verified SAFE instances(total 1): 22.798320055007935, max time: 22.798320055007935
+mean time for ALL instances (total 1):21.976857715553702, max time: 21.97707748413086
+mean time for verified SAFE instances(total 1): 21.97707748413086, max time: 21.97707748413086
 safe (total 1), index: [0]
 
 
 vggnet16_spec3_African_crocodile
+Using Linf sparse perturbation. Perturbed dimensions: 5.
+Avg perturbation: 2.0021572709083557e-05
+initial forward+backward bounds: tensor([[11.59878254]], device='cuda:0')
+Worst class: (+ rhs) 11.598782539367676
+Verified by initial bound!
+Result: safe in 21.4638 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):23.65315077661296, max time: 23.653387308120728
-mean time for verified SAFE instances(total 1): 23.653387308120728, max time: 23.653387308120728
+mean time for ALL instances (total 1):21.463586271272295, max time: 21.46380090713501
+mean time for verified SAFE instances(total 1): 21.46380090713501, max time: 21.46380090713501
 safe (total 1), index: [0]
 
 
 vggnet16_spec4_Norfolk_terrier
+Using Linf sparse perturbation. Perturbed dimensions: 5.
+Avg perturbation: 0.00020003318786621094
+initial forward+backward bounds: tensor([[2.66457629]], device='cuda:0')
+Worst class: (+ rhs) 2.664576292037964
+Verified by initial bound!
+Result: safe in 23.1208 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):21.561371958378192, max time: 21.56158757209778
-mean time for verified SAFE instances(total 1): 21.56158757209778, max time: 21.56158757209778
+mean time for ALL instances (total 1):23.120618641607162, max time: 23.12084984779358
+mean time for verified SAFE instances(total 1): 23.12084984779358, max time: 23.12084984779358
 safe (total 1), index: [0]
 
 
 vggnet16_spec5_shopping_cart
+Using Linf sparse perturbation. Perturbed dimensions: 5.
+Avg perturbation: 0.002000056207180023
+initial forward+backward bounds: tensor([[5.13629532]], device='cuda:0')
+Worst class: (+ rhs) 5.136295318603516
+Verified by initial bound!
+Result: safe in 21.3505 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):22.623540425286052, max time: 22.623766660690308
-mean time for verified SAFE instances(total 1): 22.623766660690308, max time: 22.623766660690308
+mean time for ALL instances (total 1):21.350258232418284, max time: 21.35047173500061
+mean time for verified SAFE instances(total 1): 21.35047173500061, max time: 21.35047173500061
 safe (total 1), index: [0]
 
 
 vggnet16_spec6_groom
+Using Linf sparse perturbation. Perturbed dimensions: 10.
+Avg perturbation: 2.002716064453125e-05
+initial forward+backward bounds: tensor([[6.43493080]], device='cuda:0')
+Worst class: (+ rhs) 6.434930801391602
+Verified by initial bound!
+Result: safe in 21.3549 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):25.20438190736806, max time: 25.204633951187134
-mean time for verified SAFE instances(total 1): 25.204633951187134, max time: 25.204633951187134
+mean time for ALL instances (total 1):21.354722337252333, max time: 21.354935884475708
+mean time for verified SAFE instances(total 1): 21.354935884475708, max time: 21.354935884475708
 safe (total 1), index: [0]
 
 
 vggnet16_spec7_howler_monkey
+Using Linf sparse perturbation. Perturbed dimensions: 10.
+Avg perturbation: 0.00020000040240120143
+initial forward+backward bounds: tensor([[2.15273666]], device='cuda:0')
+Worst class: (+ rhs) 2.1527366638183594
+Verified by initial bound!
+Result: safe in 21.3719 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):22.81810449107423, max time: 22.81833267211914
-mean time for verified SAFE instances(total 1): 22.81833267211914, max time: 22.81833267211914
+mean time for ALL instances (total 1):21.3716568011627, max time: 21.371870517730713
+mean time for verified SAFE instances(total 1): 21.371870517730713, max time: 21.371870517730713
 safe (total 1), index: [0]
 
 
 vggnet16_spec8_sunscreen
+Using Linf sparse perturbation. Perturbed dimensions: 10.
+Avg perturbation: 0.00200003944337368
+initial forward+backward bounds: tensor([[0.56779253]], device='cuda:0')
+Worst class: (+ rhs) 0.567792534828186
+Verified by initial bound!
+Result: safe in 26.5134 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):26.23240607575003, max time: 26.23266839981079
-mean time for verified SAFE instances(total 1): 26.23266839981079, max time: 26.23266839981079
+mean time for ALL instances (total 1):26.513181914460763, max time: 26.513447046279907
+mean time for verified SAFE instances(total 1): 26.513447046279907, max time: 26.513447046279907
 safe (total 1), index: [0]
 
 
 vggnet16_spec9_Border_terrier
+Using Linf sparse perturbation. Perturbed dimensions: 20.
+Avg perturbation: 2.0024181139888242e-05
+initial forward+backward bounds: tensor([[8.42816257]], device='cuda:0')
+Worst class: (+ rhs) 8.428162574768066
+Verified by initial bound!
+Result: safe in 21.1552 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):21.527588860387638, max time: 21.527804136276245
-mean time for verified SAFE instances(total 1): 21.527804136276245, max time: 21.527804136276245
+mean time for ALL instances (total 1):21.155031369608178, max time: 21.155242919921875
+mean time for verified SAFE instances(total 1): 21.155242919921875, max time: 21.155242919921875
 safe (total 1), index: [0]
 
 
 vggnet16_spec10_beacon
+Using Linf sparse perturbation. Perturbed dimensions: 20.
+Avg perturbation: 0.00020002425299026072
+initial forward+backward bounds: tensor([[12.66731262]], device='cuda:0')
+Worst class: (+ rhs) 12.667312622070312
+Verified by initial bound!
+Result: safe in 22.2805 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):23.237463080920335, max time: 23.237695455551147
-mean time for verified SAFE instances(total 1): 23.237695455551147, max time: 23.237695455551147
+mean time for ALL instances (total 1):22.28027260247112, max time: 22.280495405197144
+mean time for verified SAFE instances(total 1): 22.280495405197144, max time: 22.280495405197144
 safe (total 1), index: [0]
 
 
 vggnet16_spec11_EntleBucher
+Using Linf sparse perturbation. Perturbed dimensions: 20.
+Avg perturbation: 0.001999983098357916
+initial forward+backward bounds: tensor([[1.57553840]], device='cuda:0')
+Worst class: (+ rhs) 1.5755383968353271
+Verified by initial bound!
+Result: safe in 21.6416 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):23.560035901182125, max time: 23.560271501541138
-mean time for verified SAFE instances(total 1): 23.560271501541138, max time: 23.560271501541138
+mean time for ALL instances (total 1):21.641382287654174, max time: 21.64159870147705
+mean time for verified SAFE instances(total 1): 21.64159870147705, max time: 21.64159870147705
 safe (total 1), index: [0]
 
 
@@ -115,20 +187,30 @@ RuntimeError: CUDA out of memory.
 
 
 vggnet16_spec14_Afghan_hound
+Using Linf sparse perturbation. Perturbed dimensions: 100.
+Avg perturbation: 0.0020000236108899117
+initial forward+backward bounds: tensor([[7.94899464]], device='cuda:0')
+Worst class: (+ rhs) 7.9489946365356445
+Verified by initial bound!
+Result: safe in 110.3424 seconds
 ############# Summary #############
 Final verified acc: 100.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 1 , total falsified (unsafe/sat): 0 , timeout: 0
-mean time for ALL instances (total 1):112.49573077847101, max time: 112.49685573577881
-mean time for verified SAFE instances(total 1): 112.49685573577881, max time: 112.49685573577881
+mean time for ALL instances (total 1):110.3412921311308, max time: 110.34239554405212
+mean time for verified SAFE instances(total 1): 110.34239554405212, max time: 110.34239554405212
 safe (total 1), index: [0]
 
 
 vggnet16_spec15_carpenters_kit
+PGD attack margin (first 2 examles and 10 specs):
+ tensor([[[-0.36606121]]], device='cuda:0')
+number of violation:  1
+Result: unsafe-pgd in 15.9534 seconds
 ############# Summary #############
 Final verified acc: 0.0% (total 1 examples)
 Problem instances count: 1 , total verified (safe/unsat): 0 , total falsified (unsafe/sat): 1 , timeout: 0
-mean time for ALL instances (total 1):17.72886428774262, max time: 17.729041576385498
-mean time for verified UNSAFE instances (total 1): 17.729041576385498, max time: 17.729041576385498
+mean time for ALL instances (total 1):15.953277557144471, max time: 15.953437089920044
+mean time for verified UNSAFE instances (total 1): 15.953437089920044, max time: 15.953437089920044
 unsafe-pgd (total 1), index: [0]
 
 
@@ -138,4 +220,5 @@ vggnet16_spec16_restaurant
 
 vggnet16_spec17_golf_ball
 ^C
+
 
