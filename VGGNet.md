@@ -14,28 +14,28 @@ Convolutiile constante de 3x3 fac reteaua usor de gestionat.
 
 # Arhitectura VGG16 :
 
-<p align="justify">VGG16 este o retea neurala adanca cu 16 straturi avand un total de 138 milioane de parametri. Cu toate acestea, simplitatea arhitecturii VGGNet16 reprezinta principala sa atractie.
-Arhitectura VGGNet integreaza cele mai importante caracteristici ale retelelor neurale de convolutie.
+<p align="justify">VGG16 este o retea neurala adanca cu 16 straturi avand un total de 138 milioane de parametri. Datorita simplitatii arhitecturii sale, aceasta o face o retea interesanta si accesibila.
+Arhitectura VGGNet integreaza cele mai importante caracteristici ale retelelor neuronale convolutionale.
 
 <div align="center">
     <img height="350" width="400" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/vggnet.png.png">
 </div>
 
 
-O retea VGG consta in filtre de convolutie mici. VGG16 are trei straturi complet conectate si 13 straturi de convolutie.
+O retea VGG are filtre de convolutie mici. VGG16 are trei straturi complet conectate si 13 straturi de convolutie.
 Scurta prezentare a arhitecturii:
 
 
-- <strong> Input </strong> — VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet, creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224×224 de la centrul fiecarei imagini.
+- <strong> Input </strong> — VGGNet primeste o intrare de imagine de 224×224 pixeli. In competitia ImageNet creatorii modelului au mentinut dimensiunea constanta a imaginii prin decuparea unei sectiuni de 224x224 de la centrul fiecarei imagini.
 
-- <strong> Straturi de convolutie </strong> - filtrele de convolutie ale VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
+- <strong> Straturi de convolutie </strong> - filtrele de convolutie VGG folosesc campul receptiv cel mai mic posibil de 3x3. VGG utilizeaza, de asemenea, un filtru de convolutie de 1x1 pentru transformarea liniara a intrarii. 
 
 - <strong> ReLu activation </strong> — urmeaza componenta Functiei de Activare Liniara Rectificata (ReLU), o inovatie majora a lui AlexNet pentru reducerea timpului de antrenament. ReLU este o functie liniara care 
-furnizeaza o iesire potrivita pentru intrarile pozitive si furnizeaza zero pentru intrarile negative. VGG are o valoare de pas a convolutiei setata la 1 pixel pentru a pastra rezolutia spatiala dupa convolutie.
+furnizeaza o iesire pentru intrarile pozitive si furnizeaza zero pentru intrarile negative. VGG are o valoare de pas a convolutiei setata la 1 pixel pentru a pastra rezolutia spatiala dupa convolutie.
 
 - <strong> Hidden Layers </strong> - toate straturile ascunse ale retelei VGG folosesc ReLU in loc de Normalizarea Locala a Raspunsului, asa cum se intampla in AlexNet. Aceasta din urma creste timpul de antrenament si consumul de memorie cu o imbunatatire redusa a preciziei generale.
 
-- <strong> Pooling layers </strong> – un strat de pooling urmeaza mai multe straturi de convolutie, ajutand la reducerea dimensionalitatii si a numarului de parametri ai hartilor de caracteristici create de fiecare pas de convolutie. Pooling-ul este crucial data fiind cresterea rapida a numarului de filtre disponibile de la 64 la 128, 256 si in cele din urma 512 in straturile finale.
+- <strong> Pooling layers </strong> – un strat de pooling urmeaza mai multe straturi de convolutie care ajuta la reducerea dimensionalitatii si a numarului de parametri ai hartilor de caracteristici create de fiecare pas de convolutie. Pooling-ul este crucial data fiind cresterea rapida a numarului de filtre disponibile de la 64 la 128, 256 si in cele din urma 512 in straturile finale.
 
 - <strong> Fully connected layers </strong> — VGGNet include trei straturi complet conectate. Primele doua straturi au fiecare 4096 de canale, iar al treilea strat are 1000 de canale, unul pentru fiecare clasa.
 
