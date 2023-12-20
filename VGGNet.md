@@ -93,10 +93,11 @@ Arhitecturile moderne folosesc conexiuni de salt si inceptii pentru a reduce num
     <img height="316" width="757" src="https://github.com/mirceazco/VerificareFormala-2023/blob/main/LaTeX/procent.png">
 </div>
 
+S-a scos in evidenta ca adancimea reprezentarii are un beneficiu in acuratetea clasificarii si a performantei pe setul de date de competitie ImageNet, performante ce pot fi atinse prin utilizarea arhitecturii ConvNet cu o adancime semnificativ crescuta.
 
 
-
-
+Confirm opiniei mele, acest concept de straturi consecutive de convolutie cu campuri receptive mai mici a reprezentat o inovatie remarcabila. A adus numeroase avantaje in comparatie cu retelele anterioare considerate a fi varf de tehnologie. 
+In prezent majoritatea retelelor moderne de tip CNN continua sa adopte acest bloc de convolutii consecutive.
 
 
 
